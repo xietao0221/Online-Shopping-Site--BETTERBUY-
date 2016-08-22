@@ -1,0 +1,118 @@
+@media only screen and (max-width: 680px) {
+    div#content {
+        position: relative;
+        width: 100%;
+        top: 20px;
+    }
+    div.singleCategoryProductFrame {
+        position: relative;
+        float: left;
+    }
+
+    div.singleCategoryProductImage {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+    }
+
+    div.singleCategoryProductImage > img {
+        width: 95%;
+        height: 95%;
+        border: 1px solid lightgray;
+    }
+
+    div.singleCategoryProductImage > img:hover {
+        cursor: pointer;
+    }
+
+    div.singleCategoryProductInformation {
+        position: relative;
+        width: 80%;
+        height: 20%;
+        left: 10%;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 681px) and (max-width: 1100px) {
+    div#content {
+        position: relative;
+        width: 100%;
+        top: 20px;
+    }
+    div.singleCategoryProductFrame {
+        position: relative;
+        float: left;
+    }
+
+    div.singleCategoryProductImage {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+    }
+
+    div.singleCategoryProductImage > img {
+        width: 95%;
+        height: 95%;
+        border: 1px solid lightgray;
+    }
+
+    div.singleCategoryProductImage > img:hover {
+        cursor: pointer;
+    }
+
+    div.singleCategoryProductInformation {
+        position: relative;
+        width: 80%;
+        height: 20%;
+        left: 10%;
+        font-size: 0.7em;
+    }
+}
+
+
+@media only screen and (min-width: 1101px) {
+    div#content {
+        position: relative;
+        width: 1100px;
+        top: 20px;
+    }
+    div.singleCategoryProductFrame {
+        position: relative;
+        float: left;
+        width: 366px;
+        height: 366px;
+    }
+
+    div.singleCategoryProductImage {
+        position: relative;
+        width: 280px;
+        height: 280px;
+        left: 43px;
+    }
+
+    div.singleCategoryProductImage > img {
+        width: 278px;
+        height: 278px;
+        border: 1px solid lightgray;
+    }
+
+    div.singleCategoryProductImage > img:hover {
+        cursor: pointer;
+    }
+
+    div.singleCategoryProductInformation {
+        position: relative;
+        width: 280px;
+        height: 86px;
+        left: 43px;
+        line-height: 25px;
+        vertical-align: middle;
+        font-size: 15px;
+    }
+}
+
+
+

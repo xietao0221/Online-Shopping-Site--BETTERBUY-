@@ -1,0 +1,463 @@
+@media only screen and (max-width: 500px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 20px;
+    }
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        /*height: 70px;*/
+        border-bottom: 2px solid black;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    div.productTable {
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+        color: black;
+    }
+    div.totalPrice {
+        position: relative;
+        width: 100%;
+        top: 10px;
+        font-size: 15px;
+        text-align: right;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 100%;
+        /*height: 40px;*/
+        top: 30px;
+        border-top: 2px solid black;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /*Header*/
+    span.wordHeader {
+        display: block;
+        font-size: 10px;
+        font-style: italic;
+        color:#F9472B;
+        line-height: 15px;
+        margin-bottom: 5px;
+    }
+
+
+
+    /*Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 15px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th {
+        font-size: 13px;
+        height: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    div.productTable > table td {
+        font-size: 13px;
+        height: 50px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    img.shoppingCartDisplay {
+        width: 30px;
+        height: 30px;
+    }
+    input.purchaseNum {
+        height: 20px;
+        width: 40px;
+        font-size: 13px;
+    }
+    button.purchaseNumButton {
+        position: relative;
+        /*top: 5px;*/
+        height: 20px;
+        width: 20px;
+        font-size: 13px;
+        background-color: white;
+        border: none;
+    }
+    button.purchaseNumButton:hover {
+        cursor: pointer;
+    }
+    button.purchaseNumButton:focus {
+        outline: none;
+    }
+    button.deleteButton {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+        border: none;
+        background-color: white;
+    }
+    button.deleteButton:hover {
+        cursor: pointer;
+        color: black;
+    }
+    button.deleteButton:focus {
+        outline: none;
+    }
+
+
+
+    /*Button*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 150px;
+        height: 30px;
+        top: 20px;
+        border-radius: 2px;
+        border: none;
+        font-size: 13px;
+        line-height: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+    div.pageFrameFooter > button.specialButton {
+        background-color: #FC461E;
+        color: white;
+    }
+    div.pageFrameFooter > button.specialButton:hover {
+        background-color: #891515;
+    }
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 20px;
+    }
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        /*height: 70px;*/
+        border-bottom: 2px solid black;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    div.productTable {
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+        color: black;
+    }
+    div.totalPrice {
+        position: relative;
+        width: 100%;
+        top: 10px;
+        font-size: 15px;
+        text-align: right;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 100%;
+        /*height: 40px;*/
+        top: 30px;
+        border-top: 2px solid black;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /*Header*/
+    span.wordHeader {
+        display: block;
+        font-size: 10px;
+        font-style: italic;
+        color:#F9472B;
+        line-height: 15px;
+        margin-bottom: 5px;
+    }
+
+
+
+    /*Table*/
+    div.productTable > table {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th {
+        position: relative;
+        font-size: 13px;
+        height: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    div.productTable > table td {
+        position: relative;
+        font-size: 13px;
+        /*height: 50px;*/
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    /*img.shoppingCartDisplay {*/
+        /*width: 30px;*/
+        /*height: 30px;*/
+    /*}*/
+    input.purchaseNum {
+        height: 20px;
+        width: 40px;
+        font-size: 13px;
+    }
+    button.purchaseNumButton {
+        position: relative;
+        /*top: 5px;*/
+        height: 20px;
+        width: 20px;
+        font-size: 13px;
+        background-color: white;
+        border: none;
+    }
+    button.purchaseNumButton:hover {
+        cursor: pointer;
+    }
+    button.purchaseNumButton:focus {
+        outline: none;
+    }
+    button.deleteButton {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+        border: none;
+        background-color: white;
+    }
+    button.deleteButton:hover {
+        cursor: pointer;
+        color: black;
+    }
+    button.deleteButton:focus {
+        outline: none;
+    }
+
+
+
+    /*Button*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 150px;
+        height: 30px;
+        top: 20px;
+        border-radius: 2px;
+        border: none;
+        font-size: 13px;
+        line-height: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+    div.pageFrameFooter > button.specialButton {
+        background-color: #FC461E;
+        color: white;
+    }
+    div.pageFrameFooter > button.specialButton:hover {
+        background-color: #891515;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1001px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 1000px;
+        left: 50%;
+        top: 50px;
+        bottom: 50px;
+        margin-left: -500px;
+    }
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 1000px;
+        height: 70px;
+        border-bottom: 2px solid black;
+        font-size: 40px;
+        line-height: 70px;
+    }
+    div.productTable {
+        position: relative;
+        width: 1000px;
+        font-size: 15px;
+        line-height: 20px;
+        color: black;
+    }
+    div.totalPrice {
+        position: relative;
+        top: 10px;
+        font-size: 28px;
+        text-align: right;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 1000px;
+        height: 40px;
+        top: 30px;
+        border-top: 2px solid black;
+        font-size: 25px;
+        line-height: 70px;
+    }
+
+
+
+    /*Header*/
+    span.wordHeader {
+        font-size: 18px;
+        font-style: italic;
+        color:#F9472B;
+    }
+
+
+    /*Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th {
+        font-size: 18px;
+        height: 40px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    div.productTable > table td {
+        font-size: 18px;
+        height: 200px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    img.shoppingCartDisplay {
+        width: 150px;
+        height: 150px;
+    }
+    input.purchaseNum {
+        height: 30px;
+        width: 70px;
+        font-size: 18px;
+    }
+    button.purchaseNumButton {
+        position: relative;
+        top: 5px;
+        height: 30px;
+        width: 30px;
+        font-size: 25px;
+        background-color: white;
+        border: none;
+    }
+    button.purchaseNumButton:hover {
+        cursor: pointer;
+    }
+    button.purchaseNumButton:focus {
+        outline: none;
+    }
+
+    button.deleteButton {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        background-color: white;
+    }
+    button.deleteButton:hover {
+        cursor: pointer;
+        color: black;
+    }
+    button.deleteButton:focus {
+        outline: none;
+    }
+
+
+    /*Button*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 250px;
+        height: 50px;
+        top: 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+    div.pageFrameFooter > button.specialButton {
+        background-color: #FC461E;
+        color: white;
+    }
+    div.pageFrameFooter > button.specialButton:hover {
+        background-color: #891515;
+    }
+}

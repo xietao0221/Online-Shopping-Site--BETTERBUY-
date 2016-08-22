@@ -1,0 +1,394 @@
+@media only screen and (max-width: 500px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 5px;
+    }
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin-top: 15px;
+        border-bottom: 2px solid black;
+        font-size: 20px;
+        line-height: 30px;
+        color: #108914;
+    }
+    div.productTable {
+        position: relative;
+        width: 100%;
+        font-size: 10px;
+        line-height: 20px;
+        color: black;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin-top: 15px;
+        border-top: 2px solid black;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    div.recommendProductFrame {
+        position: relative;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+
+    /*Product Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 15px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th, div.productTable > table td {
+        font-size: 15px;
+        height: 30px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    img.shoppingCartImg {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*Button Frame*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 150px;
+        height: 30px;
+        top: 20px;
+        border-radius: 2px;
+        border: none;
+        font-size: 13px;
+        line-height: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+    div.pageFrameFooter > button.specialButton {
+        border: 1px solid gray;
+        background-color: #FC461E;
+        color: white;
+    }
+    div.pageFrameFooter > button.specialButton:hover {
+        background-color: #891515;
+    }
+
+
+    /*Recommend*/
+    div.singleCategoryProductFrame {
+        position: relative;
+        float: left;
+        margin-top: 10px;
+    }
+    div.singleCategoryProductImage {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+    }
+    div.singleCategoryProductImage > img {
+        width: 95%;
+        height: 95%;
+        border: 1px solid lightgray;
+    }
+    div.singleCategoryProductImage > img:hover {
+        cursor: pointer;
+    }
+    div.singleCategoryProductInformation {
+        position: relative;
+        width: 80%;
+        height: 20%;
+        left: 10%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 5px;
+    }
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin-top: 15px;
+        border-bottom: 2px solid black;
+        font-size: 20px;
+        line-height: 30px;
+        color: #108914;
+    }
+    div.productTable {
+        position: relative;
+        width: 100%;
+        font-size: 10px;
+        line-height: 20px;
+        color: black;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin-top: 15px;
+        border-top: 2px solid black;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    div.recommendProductFrame {
+        position: relative;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+
+    /*Product Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 15px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th, div.productTable > table td {
+        font-size: 15px;
+        height: 30px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    /*img.shoppingCartImg {*/
+        /*width: 40px;*/
+        /*height: 40px;*/
+    /*}*/
+
+
+
+    /*Button Frame*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 150px;
+        height: 30px;
+        top: 20px;
+        border-radius: 2px;
+        border: none;
+        font-size: 13px;
+        line-height: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+    div.pageFrameFooter > button.specialButton {
+        border: 1px solid gray;
+        background-color: #FC461E;
+        color: white;
+    }
+    div.pageFrameFooter > button.specialButton:hover {
+        background-color: #891515;
+    }
+
+
+    /*Recommend*/
+    div.singleCategoryProductFrame {
+        position: relative;
+        float: left;
+        margin-top: 10px;
+    }
+    div.singleCategoryProductImage {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+    }
+    div.singleCategoryProductImage > img {
+        width: 95%;
+        height: 95%;
+        border: 1px solid lightgray;
+    }
+    div.singleCategoryProductImage > img:hover {
+        cursor: pointer;
+    }
+    div.singleCategoryProductInformation {
+        position: relative;
+        width: 80%;
+        height: 20%;
+        left: 10%;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 1001px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 1000px;
+        left: 50%;
+        top: 50px;
+        bottom: 50px;
+        margin-left: -500px;
+    }
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 1000px;
+        height: 70px;
+        border-bottom: 2px solid black;
+        font-size: 25px;
+        line-height: 70px;
+        color: #108914;
+    }
+    div.productTable {
+        position: relative;
+        width: 1000px;
+        font-size: 15px;
+        line-height: 20px;
+        color: black;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 1000px;
+        height: 40px;
+        top: 30px;
+        border-top: 2px solid black;
+        font-size: 25px;
+        line-height: 70px;
+    }
+    div.recommendProductFrame {
+        position: relative;
+        width: 1100px;
+        margin-top: 100px;
+    }
+
+
+
+    /*Product Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th {
+        font-size: 18px;
+        height: 40px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    img.shoppingCartImg {
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+    /*Button Frame*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 250px;
+        height: 50px;
+        top: 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        margin-left: 60px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+    div.pageFrameFooter > button.specialButton {
+        background-color: #FC461E;
+        color: white;
+    }
+    div.pageFrameFooter > button.specialButton:hover {
+        background-color: #891515;
+    }
+
+
+
+    /*Recommend*/
+    div.singleCategoryProductFrame {
+        position: relative;
+        float: left;
+        left: -50px;
+    }
+    div.singleCategoryProductImage {
+        position: relative;
+        width: 280px;
+        height: 280px;
+        left: 43px;
+    }
+    div.singleCategoryProductImage > img {
+        width: 278px;
+        height: 278px;
+        border: 1px solid lightgray;
+    }
+    div.singleCategoryProductImage > img:hover {
+        cursor: pointer;
+    }
+    div.singleCategoryProductInformation {
+        position: relative;
+        width: 280px;
+        height: 86px;
+        left: 43px;
+        line-height: 25px;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+}

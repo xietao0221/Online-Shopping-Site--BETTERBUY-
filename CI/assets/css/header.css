@@ -1,0 +1,552 @@
+@media only screen and (max-width: 500px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: "Lucida Sans", "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    }
+    /*Main Field*/
+    div#banner {
+        height: 30px;
+        background-color: #2F312F;
+    }
+    div#logoField {
+        float: left;
+        position: relative;
+        height: 30px;
+        width: 10%;
+    }
+    div#menuField {
+        float: left;
+        position: relative;
+        height: 30px;
+        width: 20%;
+        z-index: 30;
+    }
+    div#searchField {
+        float: left;
+        position: relative;
+        height: 30px;
+        width: 33%;
+    }
+    div#signInUpField {
+        float: right;
+        position: relative;
+        height: 30px;
+        width: 22%;
+    }
+    div#shoppingCartField {
+        float: right;
+        position: relative;
+        height: 30px;
+        width: 15%;
+    }
+    /*Logo*/
+    div#logoField > img {
+        height: 100%;
+        width: 100%;
+    }
+    div#logoField > img:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    /*Menu*/
+    div#menuField > button {
+        height: 100%;
+        width: 100%;
+        font-size: 0.7em;
+        text-align: center;
+        background-color: #2F312F;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    div#menuField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#menuField > button:focus {
+        outline: none;
+    }
+    div#menuField > div#subMenu {
+        position: absolute;
+        display: none;
+        margin: 0;
+        padding: 0;
+        background: #2F312F;
+    }
+    div#menuField > div#subMenu > button {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 0.5em;
+        background: #2F312F;
+        color: white;
+        border: none;
+    }
+    div#menuField > div#subMenu > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#menuField > div#subMenu > button:focus {
+        outline: none;
+    }
+    /*Search*/
+    div#searchField > button {
+        background-color: #2F312F;
+        border: 0;
+        height: 30px;
+        width: 20%;
+        font-size: 0.8em;
+        color: white;
+        outline: none;
+    }
+    div#searchField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#searchField > input {
+        background-color: white;
+        border: 0;
+        width: 70%;
+        font-size: 0.7em;
+        color: black;
+        outline: none;
+        border-radius: 2px;
+    }
+    /*SignInUp*/
+    div#signInUpField > button {
+        height: 100%;
+        width: 100%;
+        background-color: #2F312F;
+        color: white;
+        outline: none;
+        border: none;
+        font-size: 0.7em;
+    }
+    div#signInUpField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#signInUpField > button:focus {
+        outline: none;
+    }
+    div#signInUpField > div#subMenu1 {
+        position: absolute;
+        display:none;
+        margin: 0;
+        padding: 0;
+        background: #2F312F;
+        z-index: 100;
+    }
+    div#signInUpField > div#subMenu1 > button {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 0.5em;
+        background: #2F312F;
+        color: white;
+        border: none;
+        outline: none;
+        z-index: 100;
+    }
+    div#signInUpField > div#subMenu1 > button:hover {
+        cursor: pointer;
+        color: gray;
+        outline: none;
+        z-index: 100;
+    }
+    /*Shopping Cart*/
+    div#shoppingCartField > button {
+        background-color: #2F312F;
+        border: 0;
+        width: 100%;
+        height: 30px;
+        font-size: 1em;
+        color: white;
+        outline: none;
+    }
+    div#shoppingCartField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    /*Content*/
+    div#content {
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 1100px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: "Lucida Sans", "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    }
+    /*Main Field*/
+    div#banner {
+        height: 40px;
+        background-color: #2F312F;
+    }
+    div#logoField {
+        float: left;
+        position: relative;
+        height: 40px;
+        width: 50px;
+    }
+    div#menuField {
+        float: left;
+        position: relative;
+        height: 40px;
+        width: 100px;
+        z-index: 30;
+    }
+    div#searchField {
+        float: left;
+        position: relative;
+        height: 40px;
+        width: 160px;
+    }
+    div#signInUpField {
+        float: right;
+        position: relative;
+        height: 40px;
+        width: 110px;
+    }
+    div#shoppingCartField {
+        float: right;
+        position: relative;
+        height: 40px;
+        width: 70px;
+    }
+    /*Logo*/
+    div#logoField > img {
+        height: 100%;
+        width: 100%;
+    }
+    div#logoField > img:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    /*Menu*/
+    div#menuField > button {
+        height: 100%;
+        width: 100%;
+        font-size: 0.9em;
+        text-align: center;
+        background-color: #2F312F;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    div#menuField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#menuField > button:focus {
+        outline: none;
+    }
+    div#menuField > div#subMenu {
+        position: absolute;
+        display: none;
+        margin: 0;
+        padding: 0;
+        background: #2F312F;
+    }
+    div#menuField > div#subMenu > button {
+        display: block;
+        width: 100px;
+        height: 30px;
+        font-size: 0.8em;
+        background: #2F312F;
+        color: white;
+        border: none;
+    }
+    div#menuField > div#subMenu > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#menuField > div#subMenu > button:focus {
+        outline: none;
+    }
+    /*Search*/
+    div#searchField > button {
+        background-color: #2F312F;
+        border: 0;
+        height: 30px;
+        width: 20%;
+        font-size: 0.8em;
+        color: white;
+        outline: none;
+        margin-top: 5px;
+    }
+    div#searchField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#searchField > input {
+        background-color: white;
+        border: 0;
+        width: 70%;
+        font-size: 0.7em;
+        color: black;
+        outline: none;
+        border-radius: 2px;
+    }
+    /*SignInUp*/
+    div#signInUpField > button {
+        height: 100%;
+        width: 100%;
+        background-color: #2F312F;
+        color: white;
+        outline: none;
+        border: none;
+        font-size: 0.9em;
+    }
+    div#signInUpField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#signInUpField > button:focus {
+        outline: none;
+    }
+    div#signInUpField > div#subMenu1 {
+        position: absolute;
+        display:none;
+        margin: 0;
+        padding: 0;
+        background: #2F312F;
+        z-index: 100;
+    }
+    div#signInUpField > div#subMenu1 > button {
+        display: block;
+        width: 110px;
+        height: 30px;
+        font-size: 0.8em;
+        background: #2F312F;
+        color: white;
+        border: none;
+        outline: none;
+        z-index: 100;
+    }
+    div#signInUpField > div#subMenu1 > button:hover {
+        cursor: pointer;
+        color: gray;
+        outline: none;
+        z-index: 100;
+    }
+    /*Shopping Cart*/
+    div#shoppingCartField > button {
+        background-color: #2F312F;
+        border: 0;
+        width: 100%;
+        height: 30px;
+        font-size: 1em;
+        color: white;
+        outline: none;
+        margin-top: 5px;
+    }
+    div#shoppingCartField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    /*Content*/
+    div#content {
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1101px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: "Lucida Sans", "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    }
+    /*Main Field*/
+    div#banner {
+        height: 60px;
+        background-color: #2F312F;
+    }
+    div#logoField {
+        float: left;
+        position: relative;
+        left: 10px;
+        height: 60px;
+        width: 100px;
+        background-color: #2F312F;
+    }
+    div#menuField {
+        float: left;
+        position: relative;
+        left: 40px;
+        height: 60px;
+        width: 150px;
+        background-color: #2F312F;
+        z-index: 30;
+    }
+    div#searchField {
+        float: left;
+        position: relative;
+        left: 50px;
+        height: 60px;
+        width: 250px;
+        background-color: #2F312F;
+    }
+    div#signInUpField {
+        float: right;
+        position: relative;
+        right: 30px;
+        height: 60px;
+        width: 150px;
+        background-color: #2F312F;
+        font-size: 1.3em;
+    }
+    div#shoppingCartField {
+        float: right;
+        position: relative;
+        right: 10px;
+        height: 60px;
+        width: 100px;
+        background-color: #2F312F;
+    }
+    /*Logo*/
+    div#logoField > img {
+        width: 100px;
+        height: 60px;
+    }
+    div#logoField > img:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    /*Menu*/
+    div#menuField > button {
+        height: 100%;
+        width: 80%;
+        font-size: 1.2em;
+        background-color: #2F312F;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    div#menuField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#menuField > button:focus {
+        outline: none;
+    }
+    div#menuField > div#subMenu {
+        position: absolute;
+        display: none;
+        margin: 0;
+        padding: 0;
+        background: #2F312F;
+    }
+    div#menuField > div#subMenu > button {
+        display: block;
+        width: 120px;
+        height: 40px;
+        font-size: 0.9em;
+        background: #2F312F;
+        color: white;
+        border: none;
+    }
+    div#menuField > div#subMenu > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#menuField > div#subMenu > button:focus {
+        outline: none;
+    }
+    /*Search*/
+    div#searchField > button {
+        background-color: #2F312F;
+        border: 0;
+        height: 100%;
+        font-size: 1.5em;
+        color: white;
+        outline: none;
+    }
+    div#searchField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#searchField > input {
+        background-color: white;
+        border: 0;
+        width: 200px;
+        font-size: 1.1em;
+        color: black;
+        outline: none;
+        border-radius: 6px;
+    }
+    /*SignInUp*/
+    div#signInUpField > button {
+        height: 100%;
+        width: 100%;
+        background-color: #2F312F;
+        color: white;
+        outline: none;
+        border: none;
+        font-size: 1em;
+    }
+    div#signInUpField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    div#signInUpField > button:focus {
+        outline: none;
+    }
+    div#signInUpField > div#subMenu1 {
+        position: absolute;
+        display:none;
+        margin: 0;
+        padding: 0;
+        background: #2F312F;
+        z-index: 100;
+    }
+    div#signInUpField > div#subMenu1 > button {
+        display: block;
+        width: 120px;
+        height: 40px;
+        font-size: 0.7em;
+        background: #2F312F;
+        color: white;
+        border: none;
+        outline: none;
+        z-index: 100;
+    }
+    div#signInUpField > div#subMenu1 > button:hover {
+        cursor: pointer;
+        color: gray;
+        outline: none;
+        z-index: 100;
+    }
+    /*Shopping Cart*/
+    div#shoppingCartField > button {
+        background-color: #2F312F;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 2em;
+        color: white;
+        outline: none;
+    }
+    div#shoppingCartField > button:hover {
+        cursor: pointer;
+        color: gray;
+    }
+    /*Content*/
+    div#content {
+        position: relative;
+        width: 1100px;
+        left: 50%;
+        margin-left: -550px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}

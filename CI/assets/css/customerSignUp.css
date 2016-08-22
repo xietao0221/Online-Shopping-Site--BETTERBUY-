@@ -1,0 +1,215 @@
+@media only screen and (max-width: 800px) {
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 10px;
+    }
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        border-bottom: 2px solid black;
+        font-size: 35px;
+        line-height: 50px;
+        color: #3F3F3F;
+    }
+    div.pageFrameInformation {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    div.inputField {
+        position: relative;
+        width: 100%;
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+
+    span.wordNote {
+        font-size: 12px;
+    }
+
+    div.submitButtonDiv {
+        position: relative;
+        top: 15px;
+        width: 100%;
+        height: 30px;
+        border-top: 2px solid black;
+    }
+    button.submitButton {
+        position: relative;
+        width: 150px;
+        height: 30px;
+        left: 50%;
+        margin-left: -75px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        background-color: #FC461E;
+        color: white;
+    }
+    button.submitButton:focus {
+        outline: none;
+    }
+
+    button.submitButton:hover {
+        cursor: pointer;
+        background-color: red;
+    }
+
+    div.inputErrorMessage {
+        position: relative;
+        float: left;
+        width: 50px;
+        line-height: 20px;
+        vertical-align: middle;
+        margin: 5px 0 5px 0;
+        color: red;
+        font-size: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 801px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 800px;
+        left: 50%;
+        top: 50px;
+        bottom: 50px;
+        margin-left: -400px;
+    }
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 800px;
+        height: 90px;
+        border-bottom: 2px solid black;
+        font-size: 60px;
+        line-height: 90px;
+        color: #3F3F3F;
+    }
+    div.pageFrameInformation {
+        position: relative;
+        width: 800px;
+        height: 80px;
+        top: 35px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    div.inputField {
+        position: relative;
+        width: 800px;
+        top: 10px;
+        line-height: 70px;
+    }
+
+
+    /*Detail*/
+    span.wordNote {
+        font-size: 13px;
+    }
+    div.inputLabel {
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+        line-height: 40px;
+        vertical-align: bottom;
+        margin: 5px 0 5px 0;
+    }
+    div.inputArea {
+        position: relative;
+        float: left;
+        width: 350px;
+        height: 40px;
+        font-size: 20px;
+        vertical-align: middle;
+        margin: 5px 10px 5px 10px;
+    }
+    div.inputErrorMessage {
+        position: relative;
+        float: left;
+        width: 230px;
+        height: 40px;
+        line-height: 50px;
+        vertical-align: middle;
+        margin: 5px 0 5px 0;
+        color: red;
+        font-size: 15px;
+    }
+    input.inputText {
+        position: relative;
+        height: 30px;
+        width: 350px;
+        top: 10px;
+        font-size: 17px;
+    }
+    div.inputLabel > span {
+        vertical-align: sub;
+        color: red;
+    }
+
+    div.inputArea > select {
+        width: 100px;
+        margin-top: -30px;
+        line-height: 50px;
+        vertical-align: middle;
+    }
+    div.submitButtonDiv {
+        position: relative;
+        top: 50px;
+        width: 800px;
+        height: 100px;
+        border-top: 2px solid black;
+    }
+    button.submitButton {
+        position: relative;
+        width: 250px;
+        height: 40px;
+        left: 550px;
+        top: 30px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        background-color: #FC461E;
+        color: white;
+    }
+    button.submitButton:focus {
+        outline: none;
+    }
+
+    button.submitButton:hover {
+        cursor: pointer;
+        background-color: red;
+    }
+
+    span.radioStyle1 {
+        font-size:17px;
+        line-height:50px;
+        vertical-align:middle;
+    }
+    span.radioStyle2 {
+        position:relative;
+        left:40px;
+        font-size:17px;
+        line-height: 50px;
+        vertical-align:middle;
+    }
+}

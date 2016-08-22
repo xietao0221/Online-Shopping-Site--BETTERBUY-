@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1000px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 30px;
+    }
+
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        font-size: 30px;
+    }
+    div.shippingInformation {
+        position: relative;
+        width: 100%;
+        height: 55px;
+        margin-top: 10px;
+        border-bottom: 2px solid black;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    div.productTable {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 20px;
+        color: black;
+    }
+    div.totalPrice {
+        position: relative;
+        width: 100%;
+        top: 15px;
+        font-size: 18px;
+        text-align: right;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        top: 30px;
+        border-top: 2px solid black;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+
+    /*Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th {
+        font-size: 13px;
+        height: 30px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    div.productTable > table td {
+        font-size: 13px;
+        height: 100px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    /*img.productImageDisplay {*/
+        /*width: 40px;*/
+        /*height: 40px;*/
+    /*}*/
+
+
+    /*button*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 150px;
+        height: 30px;
+        top: 10px;
+        border-radius: 2px;
+        border: none;
+        font-size: 13px;
+        left: 100%;
+        margin-left: -150px;
+        margin-bottom: 50px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+}
+
+
+
+@media only screen and (min-width: 1001px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 1000px;
+        left: 50%;
+        top: 50px;
+        bottom: 50px;
+        margin-left: -500px;
+    }
+
+
+    /*Main Frame*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 1000px;
+        height: 70px;
+        /*border-bottom: 2px solid black;*/
+        font-size: 40px;
+        line-height: 70px;
+    }
+    div.shippingInformation {
+        position: relative;
+        width: 1000px;
+        height: 70px;
+        border-bottom: 2px solid black;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    div.productTable {
+        position: relative;
+        width: 1000px;
+        font-size: 15px;
+        line-height: 20px;
+        color: black;
+    }
+    div.totalPrice {
+        position: relative;
+        top: 10px;
+        font-size: 28px;
+        text-align: right;
+    }
+    div.pageFrameFooter {
+        position: relative;
+        width: 1000px;
+        height: 40px;
+        top: 30px;
+        border-top: 2px solid black;
+        font-size: 25px;
+        line-height: 70px;
+    }
+
+
+
+    /*Table*/
+    div.productTable > table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    div.productTable > table th {
+        font-size: 18px;
+        height: 40px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    div.productTable > table td {
+        font-size: 18px;
+        height: 200px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    img.productImageDisplay {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    /*button*/
+    div.pageFrameFooter > button {
+        position: relative;
+        width: 250px;
+        height: 50px;
+        top: 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        left: 750px;
+        margin-bottom: 50px;
+    }
+    div.pageFrameFooter > button:hover {
+        cursor: pointer;
+    }
+    div.pageFrameFooter > button:focus {
+        outline: none;
+    }
+    div.pageFrameFooter > button.normalButton {
+        border: 1px solid gray;
+        background-color: #E9EBEE;
+        color: black;
+    }
+    div.pageFrameFooter > button.normalButton:hover {
+        background-color: #DEE1E6;
+    }
+}

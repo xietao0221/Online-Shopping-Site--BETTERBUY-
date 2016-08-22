@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1000px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 30px;
+    }
+    div.orderFrame {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        border: 2px solid black;
+        font-size: 15px;
+        line-height: 30px;
+        border-radius: 8px;
+    }
+
+
+
+    /*Header*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        border-bottom: 2px solid black;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    div.orderFrameHeader {
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        border-bottom: 2px solid black;
+    }
+    div.fragment {
+        display: none;
+    }
+    div.orderPlaced {
+        position: relative;
+        left: 5px;
+    }
+    div.orderTotal {
+        position: relative;
+        width: 170px;
+        left: 5px;
+    }
+    div.orderShipTo {
+        position: relative;
+        left: 5px;
+    }
+    div.orderNumber {
+        position: relative;
+        left: 5px;
+    }
+    div.smallHeader {
+        position: relative;
+        width: 100%;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+    div.smallContent {
+        position: relative;
+        width: 100%;
+        vertical-align: middle;
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+
+
+    /*Order Detail*/
+    div.orderFrameContent {
+        position: relative;
+        margin: 5px;
+        font-size: 13px;
+    }
+    /*img.orderDetailImage {*/
+        /*width: 40px;*/
+        /*height: 40px;*/
+    /*}*/
+}
+
+
+
+@media only screen and (min-width: 1001px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 1000px;
+        left: 50%;
+        top: 50px;
+        bottom: 50px;
+        margin-left: -500px;
+    }
+    div.orderFrame {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 1004px;
+        border: 2px solid black;
+        font-size: 18px;
+        line-height: 30px;
+        border-radius: 8px;
+    }
+
+
+
+    /*Header*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 1000px;
+        height: 70px;
+        border-bottom: 2px solid black;
+        font-size: 40px;
+        line-height: 70px;
+    }
+    div.orderFrameHeader {
+        position: relative;
+        width: 1000px;
+        height: 80px;
+        background-color: #F6F6F6;
+        font-size: 15px;
+        border-bottom: 2px solid black;
+    }
+    div.fragment {
+        position: relative;
+        float: left;
+        width: 5px;
+        height: 70px;
+        top: 5px;
+        border-left: 2px solid black;
+    }
+    div.orderPlaced {
+        position: relative;
+        top: 5px;
+        float: left;
+        width: 190px;
+        left: 20px;
+    }
+    div.orderTotal {
+        position: relative;
+        top: 5px;
+        float: left;
+        width: 170px;
+        left: 20px;
+    }
+    div.orderShipTo {
+        position: relative;
+        top: 5px;
+        float: left;
+        width: 410px;
+        left: 20px;
+    }
+    div.orderNumber {
+        position: relative;
+        top: 5px;
+        float: left;
+        width: 180px;
+        left: 20px;
+    }
+    div.smallHeader {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    div.smallContent {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+    img.orderDetailImage {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    /*Big Frame*/
+    div.pageFrame {
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 30px;
+    }
+    div.orderFrame {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        border: 2px solid black;
+        font-size: 15px;
+        line-height: 30px;
+        border-radius: 8px;
+    }
+
+
+
+    /*Header*/
+    div.pageFrameHeader {
+        position: relative;
+        width: 100%;
+        border-bottom: 2px solid black;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    div.orderFrameHeader {
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        border-bottom: 2px solid black;
+    }
+    div.fragment {
+        display: none;
+    }
+    div.orderPlaced {
+        position: relative;
+        left: 5px;
+    }
+    div.orderTotal {
+        position: relative;
+        width: 170px;
+        left: 5px;
+    }
+    div.orderShipTo {
+        position: relative;
+        left: 5px;
+    }
+    div.orderNumber {
+        position: relative;
+        left: 5px;
+    }
+    div.smallHeader {
+        position: relative;
+        width: 100%;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+    div.smallContent {
+        position: relative;
+        width: 100%;
+        vertical-align: middle;
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+
+
+    /*Order Detail*/
+    div.orderFrameContent {
+        position: relative;
+        margin: 5px;
+        font-size: 13px;
+    }
+    img.orderDetailImage {
+        width: 40px;
+        height: 40px;
+    }
+}
